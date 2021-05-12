@@ -1,0 +1,135 @@
+
+body { 
+    display: block;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: floralwhite;
+    overflow: hidden;
+  }
+
+/* h1 {
+  color:green;
+  margin-left: 20px;
+  text-align: center;
+} */
+
+img.top {
+    vertical-align: top;
+}
+
+li a{
+    display: block;
+    width: 100px;
+}
+
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #bd5f5f;
+  }
+
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+  }
+
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+  }
+
+  img.logo {
+    width: 77px;
+    height: 61px;
+    margin-left: 93%;
+}
+
+h3 {
+    text-align: left;
+    padding: -24px;
+    margin-bottom: -21px;
+}
+
+header {
+    background: dimgray;
+    margin:-24px;
+}
+
+.header img {
+    float: left;
+    width: 100px;
+    height: 100px;
+    background: #555;
+  }
+  
+  .header h1 {
+    position: relative;
+    top: -39px;
+    left: 61px;
+  }
+  footer {
+    margin: 0px;
+    padding: 5px;
+    
+    color: white;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+
+    padding-top: 2rem;
+    background: #F1F6F4;
+}
+
+ul#footer-menu li {
+    display:inline;
+    color: cornflowerblue;
+    right:-440px;
+    position: relative;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+  }
+
+  li {
+    float: left;
+  }
+  
+  li {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111111;
+  }
+
+  .row {
+    display: block;
+    margin-left: 131px;
+}
+  
+#about label {
+    display: inline-block;
+    width: 140px;
+    text-align: left;
+  }​
+
+label.description {
+    width: auto;
+}

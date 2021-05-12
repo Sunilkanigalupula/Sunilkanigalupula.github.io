@@ -1,0 +1,126 @@
+<htmL>
+
+<head>
+    <title>BlinkistApplication</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <div class="header">
+            <img src="https://cdn.vox-cdn.com/thumbor/IfNi7YxzvdlwtITimYfJqFnq3oQ=/0x0:1200x808/920x613/filters:focal(475x111:667x303):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/55061015/wall_ecover.0.jpg"
+                class="logo" />
+            <h1>Sunil's Portfolio</h1>
+        </div>
+    </header>
+
+    <div class="navtab">
+        <div class="tab">
+
+            <ul id="menu">
+                <li onclick="openTab(event,'home')">Home</a></li>
+                <li onclick="openTab(event,'about')">About Me</li>
+                <li onclick="openTab(event,'contact')">Contact Me</li>
+                <li onclick="openTab(event,'gallery')">Gallery</li>
+            </ul>
+
+        </div>
+    </div>
+
+    <div class="content">
+        <div id="home" class="tabcontent">
+            <h2>Home</h2>
+            <p>The Home of Sunil Portfolio</p>
+        </div>
+
+        <div id="about" class="tabcontent" style="text-align:left;">
+            <h2>About Me</h2>
+            <div>
+                <label>Name:</label>
+                <label style="width: auto;margin-left: -4px;">Sunil</label>
+            </div>
+        <div>
+            <label>Email:</label><label style="width: auto;">Sunil@zemosolabs.com</label>
+            
+        </div>
+        <div>
+            <label>phonenumber:</label><label style="width: auto;">8978008600</label>
+            
+        </div>
+
+        <div>
+            <label>Qualification:</label><label style="width: auto;">MCA</label>
+        </div>
+
+
+    </div>
+
+    <div id="contact" class="tabcontent" style="text-align: center;">
+        <h4>Contact me for know more </h4>
+        <form onsubmit="return confirm('Do you really want to submit the form?');">
+            <label>Name:</label>
+            <input type="text" placeholder="enter your name" class="name"><br />
+            <label>Email:<label>
+                    <input type="text" placeholder="enter your email"><br />
+                    <label>Ph No:</label>
+                    <input type="text" id="phone_number"  pattern="[0-9]{10}" placeholder="enter your phonenumber"><br />
+                    <input type="Submit"style="margin-top:20px;" onclick="showDetails()">
+                    <!-- <button type="submit" value="Submit" >Submit</button> -->
+        </form>
+    </div>
+    <div id="gallery" class="tabcontent">
+        <h2>Gallery</h2>
+        <p>The Home of Gallery</p>
+
+        <div class="row">
+            <div class="column">
+                <img src="https://cdn.vox-cdn.com/thumbor/IfNi7YxzvdlwtITimYfJqFnq3oQ=/0x0:1200x808/920x613/filters:focal(475x111:667x303):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/55061015/wall_ecover.0.jpg"
+                    style="width: 23%;height: 23%;" />
+                <img src="https://cdn.vox-cdn.com/thumbor/IfNi7YxzvdlwtITimYfJqFnq3oQ=/0x0:1200x808/920x613/filters:focal(475x111:667x303):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/55061015/wall_ecover.0.jpg"
+                    style="width: 23%;height: 23%;" />
+                <img src="https://cdn.vox-cdn.com/thumbor/IfNi7YxzvdlwtITimYfJqFnq3oQ=/0x0:1200x808/920x613/filters:focal(475x111:667x303):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/55061015/wall_ecover.0.jpg"
+                    style="width: 23%;height: 23%;" />
+                <img src="https://cdn.vox-cdn.com/thumbor/IfNi7YxzvdlwtITimYfJqFnq3oQ=/0x0:1200x808/920x613/filters:focal(475x111:667x303):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/55061015/wall_ecover.0.jpg"
+                    style="width: 23%;height: 23%;" />
+
+            </div>
+            <div class="column">
+                <img src="https://cdn.vox-cdn.com/thumbor/IfNi7YxzvdlwtITimYfJqFnq3oQ=/0x0:1200x808/920x613/filters:focal(475x111:667x303):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/55061015/wall_ecover.0.jpg"
+                    style="width: 23%;height: 23%;" />
+                <img src="https://cdn.vox-cdn.com/thumbor/IfNi7YxzvdlwtITimYfJqFnq3oQ=/0x0:1200x808/920x613/filters:focal(475x111:667x303):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/55061015/wall_ecover.0.jpg"
+                    style="width: 23%;height: 23%;" />
+                <img src="https://cdn.vox-cdn.com/thumbor/IfNi7YxzvdlwtITimYfJqFnq3oQ=/0x0:1200x808/920x613/filters:focal(475x111:667x303):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/55061015/wall_ecover.0.jpg"
+                    style="width: 23%;height: 23%;" />
+                <img src="https://cdn.vox-cdn.com/thumbor/IfNi7YxzvdlwtITimYfJqFnq3oQ=/0x0:1200x808/920x613/filters:focal(475x111:667x303):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/55061015/wall_ecover.0.jpg"
+                    style="width: 23%;height: 23%;" />
+
+            </div>
+            <div class="column">
+                <img src="https://cdn.vox-cdn.com/thumbor/IfNi7YxzvdlwtITimYfJqFnq3oQ=/0x0:1200x808/920x613/filters:focal(475x111:667x303):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/55061015/wall_ecover.0.jpg"
+                    style="width: 23%;height: 23%;" />
+                <img src="https://cdn.vox-cdn.com/thumbor/IfNi7YxzvdlwtITimYfJqFnq3oQ=/0x0:1200x808/920x613/filters:focal(475x111:667x303):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/55061015/wall_ecover.0.jpg"
+                    style="width: 23%;height: 23%;" />
+                <img src="https://cdn.vox-cdn.com/thumbor/IfNi7YxzvdlwtITimYfJqFnq3oQ=/0x0:1200x808/920x613/filters:focal(475x111:667x303):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/55061015/wall_ecover.0.jpg"
+                    style="width: 23%;height: 23%;" />
+                <img src="https://cdn.vox-cdn.com/thumbor/IfNi7YxzvdlwtITimYfJqFnq3oQ=/0x0:1200x808/920x613/filters:focal(475x111:667x303):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/55061015/wall_ecover.0.jpg"
+                    style="width: 23%;height: 23%;" />
+
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+    <footer>
+        <ul id="footer-menu">
+            <li>Home</li>
+            <li>About Me</li>
+            <li>Contact Me</li>
+            <li>Gallery</li>
+        </ul>
+    </footer>
+</body>
+
+</html>
