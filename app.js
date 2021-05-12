@@ -14,6 +14,7 @@
     }
 
     function showDetails(){
-        var name = document.getElementsByClassName("name").value;
-        return name;
+        var name = document.getElementById("email").value;
+        var message = "mail sent to this id:" + name;
+        alert(message);
     }

@@ -59,15 +59,15 @@
 
     <div id="contact" class="tabcontent" style="text-align: center;">
         <h4>Contact me for know more </h4>
-        <form onsubmit="return confirm('Do you really want to submit the form?');">
+        <form>
             <label>Name:</label>
             <input type="text" placeholder="enter your name" class="name"><br />
             <label>Email:<label>
-                    <input type="text" placeholder="enter your email"><br />
+                    <input type="text" placeholder="enter your email" id="email"><br />
                     <label>Ph No:</label>
                     <input type="text" id="phone_number"  pattern="[0-9]{10}" placeholder="enter your phonenumber"><br />
                     <input type="Submit"style="margin-top:20px;" onclick="showDetails()">
-                    <!-- <button type="submit" value="Submit" >Submit</button> -->
+                   
         </form>
     </div>
     <div id="gallery" class="tabcontent">
